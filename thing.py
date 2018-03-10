@@ -25,5 +25,12 @@ pygame.time.wait(3000)
 answer = input("Are you satisfied with your care? ")
 if answer == "I am safisfied":
     print("Goodbye", name ,"nice meeting you, feel better")
+    print("If you need me again I will be in my box")
 if answer == "I am not satisfied":
     print("This is not good, I will not leave till you feel better")
+answer = input("Do you have a dry mouth, and itchy throat?")
+if answer == "Yes":
+    print("If you feel like that you probally are having an alergic reaction")
+if answer == "No":
+    print("Then you are okay")
+   
